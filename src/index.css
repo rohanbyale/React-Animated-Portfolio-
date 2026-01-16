@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: anzo1;
+    src: url(./assets/file.woff2);
+}
+@font-face {
+    font-family: anzo2;
+    src: url(./assets/file3.woff2);
+}
+
+@font-face {
+    font-family: anzo3;
+    src: url(./assets/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: anzo4;
+    src: url(./assets/anzo.woff2);
+}
+
+@font-face {
+    font-family: anzo5;
+    src: url(./assets/main.woff2);
+}
+
+@font-face {
+    font-family: morgnite;
+    src: url(./assets/Morganite-Black.ttf);
+}
+html,body{
+    color: #fff;
+}
+
+#page1-in{
+    position: relative;
+    perspective: 1000px;
+}
+#tiltDiv{
+    /* position: relative; */
+    /* background-color: red; */
+    width: fit-content;
+    transform: rotateY(0deg);
+}
+#section2{
+    position: relative;
+    perspective: 3000px;
+}
+.rotateText {
+    /* background-color: red; */
+    transform-origin: 100% 70%;
+}
